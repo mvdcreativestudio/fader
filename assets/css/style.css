@@ -2,4 +2,103 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+:root {
+  --color-default: #0a0d13;
+  --color-primary: #B09842;
+  --color-secondary: #222529;
+}
+
+:root {
+  --font-primary: "Montserrat", sans-serif;
+}
+
+.btn-primario {
+  padding: 5px 10px;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.separador {
+  height: 15px;
+}
+
+.darkSection {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.logo-navbar {
+  max-width: 100px;
+}
+
+.active {
+  border-bottom: solid 3px white;
+}
+
+.nav-item {
+  margin: 0px 10px;
+}
+
+.nav-item:hover {
+  border-bottom: solid 1px white;
+}
+
+.carousel-inner {
+  max-width: 1920px;
+  max-height: 500px;
+}
+
+.contenedorServicios {
+  min-height: 500px;
+}
+
+.descripcionServicio {
+  font-family: var(--font-primary);
+  font-weight: 100;
+}
+
+.cardServicios {
+  padding: 10px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: solid 1px white;
+  border-radius: 0;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.form-control:active {
+  background-color: transparent;
+}
+
+.btnContacto {
+  padding: 6px 30px;
+  background-color: white;
+  color: var(--color-secondary);
+  border: solid 1px transparent;
+  box-shadow: none;
+}
+
+.btnContacto:hover {
+  background-color: var(--color-secondary);
+  color: white;
+  border: solid 1px white;
+}
+
+.footer {
+  background-color: var(--color-secondary);
+  height: 100px;
+  color: white;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

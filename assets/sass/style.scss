@@ -2,4 +2,131 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+// COLORS
+:root {
+    --color-default: #0a0d13;
+    --color-primary: #B09842;
+    --color-secondary: #222529;
+}
+
+// FONTS 
+
+:root {
+    --font-primary: "Montserrat", sans-serif;
+}
+
+// BUTTONS
+
+.btn-primario {
+    padding: 5px 10px;
+    background-color: var(--color-secondary);
+    color: white;
+    
+}
+
+// SEPARADORES
+
+.separador {
+    height: 15px;
+}
+
+// SECTIONS
+
+
+
+.darkSection {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+
+
+// NAVBAR
+
+.logo-navbar {
+    max-width: 100px;
+}
+
+.active {
+    border-bottom: solid 3px white;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item:hover {
+    border-bottom: solid 1px white;
+}
+
+
+
+// CAROUSEL
+
+.carousel-inner {
+    max-width: 1920px;
+    max-height: 500px;
+}
+
+// SERVICIOS
+
+.contenedorServicios {
+    min-height: 500px;
+}
+
+
+.descripcionServicio {
+    font-family: var(--font-primary);
+    font-weight: 100;
+}
+
+.cardServicios {
+    padding: 10px;
+}
+
+// CONTACTO
+
+.form-control {
+    border: none;
+    border-bottom: solid 1px white;
+    border-radius: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.form-control:active {
+    background-color: transparent;
+}
+
+.btnContacto {
+    padding: 6px 30px;
+    background-color: white;
+    color: var(--color-secondary);
+    border: solid 1px transparent;
+    box-shadow: none;
+}
+
+.btnContacto:hover {
+    background-color: var(--color-secondary);
+    color: white;
+    border: solid 1px white;
+}
+
+
+// FOOTER
+
+.footer {
+    background-color: var(--color-secondary);
+    height: 100px;
+    color: white;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
